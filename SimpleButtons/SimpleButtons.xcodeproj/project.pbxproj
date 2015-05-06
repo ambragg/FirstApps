@@ -77,11 +77,8 @@
 		F31CBF931AF7F3800056FFFC /* SimpleButtons */ = {
 			isa = PBXGroup;
 			children = (
-				F31CBF961AF7F3800056FFFC /* AppDelegate.swift */,
 				F31CBF981AF7F3800056FFFC /* ViewController.swift */,
 				F31CBF9A1AF7F3800056FFFC /* Main.storyboard */,
-				F31CBF9D1AF7F3800056FFFC /* Images.xcassets */,
-				F31CBF9F1AF7F3800056FFFC /* LaunchScreen.xib */,
 				F31CBF941AF7F3800056FFFC /* Supporting Files */,
 			);
 			path = SimpleButtons;
@@ -90,6 +87,9 @@
 		F31CBF941AF7F3800056FFFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F31CBF9F1AF7F3800056FFFC /* LaunchScreen.xib */,
+				F31CBF9D1AF7F3800056FFFC /* Images.xcassets */,
+				F31CBF961AF7F3800056FFFC /* AppDelegate.swift */,
 				F31CBF951AF7F3800056FFFC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -409,6 +409,7 @@
 				F31CBFB21AF7F3800056FFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F31CBFB31AF7F3800056FFFC /* Build configuration list for PBXNativeTarget "SimpleButtonsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				F31CBFB51AF7F3800056FFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
