@@ -13,6 +13,7 @@
 		F35DE22C1B02391A0000424E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35DE22A1B02391A0000424E /* LaunchScreen.xib */; };
 		F35DE2381B02391A0000424E /* GithubFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2371B02391A0000424E /* GithubFriendsTests.swift */; };
 		F35DE2421B0240250000424E /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2411B0240250000424E /* FriendsTableViewController.swift */; };
+		F35DE2441B0284A30000424E /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2431B0284A30000424E /* ProfileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F35DE2361B02391A0000424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35DE2371B02391A0000424E /* GithubFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFriendsTests.swift; sourceTree = "<group>"; };
 		F35DE2411B0240250000424E /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		F35DE2431B0284A30000424E /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F35DE2251B02391A0000424E /* Main.storyboard */,
 				F35DE2411B0240250000424E /* FriendsTableViewController.swift */,
+				F35DE2431B0284A30000424E /* ProfileTableViewCell.swift */,
 				F35DE21F1B02391A0000424E /* Supporting Files */,
 			);
 			path = GithubFriends;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35DE2441B0284A30000424E /* ProfileTableViewCell.swift in Sources */,
 				F35DE2421B0240250000424E /* FriendsTableViewController.swift in Sources */,
 				F35DE2221B02391A0000424E /* AppDelegate.swift in Sources */,
 			);

@@ -52,9 +52,8 @@ class FriendsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
-
     
-    @IBOutlet weak var avatarUrl: UIImageView!
+//    var avatarUrl =
     
     @IBAction func addFriend(sender: AnyObject) {
         
@@ -66,7 +65,6 @@ class FriendsTableViewController: UITableViewController {
         
         if let url = NSURL(string: endpoint) {
             
-           
             
             let request = NSURLRequest(URL: url)
             
@@ -121,6 +119,18 @@ class FriendsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("friendCell", forIndexPath: indexPath) as! UITableViewCell
         
         cell.textLabel?.text = friends[indexPath.row]["name"] as? String
+        
+        
+        let avatarURL = NSURL(string: friends[indexPath.row]["avatar_url"]! as! String)
+            
+            let imageData = NSData(contentsOfURL: avatarURL!)
+            
+            let image = UIImage(data: imageData!)
+            
+            cell.imageView!.image = image
+            
+        
+        
 
         // Configure the cell...
 
