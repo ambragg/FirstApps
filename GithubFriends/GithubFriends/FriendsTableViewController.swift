@@ -8,6 +8,8 @@
 
 import UIKit
 
+var lastUserCreated: String!
+
 class FriendsTableViewController: UITableViewController {
     
     
@@ -75,6 +77,8 @@ class FriendsTableViewController: UITableViewController {
                 if let friendInfo = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: nil) as? [String: AnyObject] {
                     
                     println(friendInfo)
+                    
+                    lastUserCreated = friendNameField.text
                     
                     friends.insert(friendInfo, atIndex: 0)
                     tableView.reloadData()
