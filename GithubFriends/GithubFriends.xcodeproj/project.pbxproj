@@ -16,6 +16,10 @@
 		F35DE2441B0284A30000424E /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2431B0284A30000424E /* ProfileTableViewCell.swift */; };
 		F35DE2461B0297690000424E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2451B0297690000424E /* ProfileViewController.swift */; };
 		F35DE2481B02A2AC0000424E /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2471B02A2AC0000424E /* ReposTableViewController.swift */; };
+		F35DE24A1B0387EA0000424E /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE2491B0387EA0000424E /* FriendTableViewCell.swift */; };
+		F35DE24C1B038F1F0000424E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE24B1B038F1F0000424E /* RepoTableViewCell.swift */; };
+		F35DE24E1B0397B20000424E /* GithubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE24D1B0397B20000424E /* GithubRequest.swift */; };
+		F35DE2501B03ACCD0000424E /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE24F1B03ACCD0000424E /* AddFriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		F35DE2431B0284A30000424E /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		F35DE2451B0297690000424E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F35DE2471B02A2AC0000424E /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
+		F35DE2491B0387EA0000424E /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		F35DE24B1B038F1F0000424E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		F35DE24D1B0397B20000424E /* GithubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRequest.swift; sourceTree = "<group>"; };
+		F35DE24F1B03ACCD0000424E /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +92,13 @@
 			isa = PBXGroup;
 			children = (
 				F35DE2251B02391A0000424E /* Main.storyboard */,
+				F35DE24F1B03ACCD0000424E /* AddFriendViewController.swift */,
+				F35DE24B1B038F1F0000424E /* RepoTableViewCell.swift */,
+				F35DE2491B0387EA0000424E /* FriendTableViewCell.swift */,
 				F35DE2471B02A2AC0000424E /* ReposTableViewController.swift */,
 				F35DE2451B0297690000424E /* ProfileViewController.swift */,
 				F35DE2411B0240250000424E /* FriendsTableViewController.swift */,
+				F35DE24D1B0397B20000424E /* GithubRequest.swift */,
 				F35DE2431B0284A30000424E /* ProfileTableViewCell.swift */,
 				F35DE21F1B02391A0000424E /* Supporting Files */,
 			);
@@ -223,7 +235,11 @@
 			files = (
 				F35DE2441B0284A30000424E /* ProfileTableViewCell.swift in Sources */,
 				F35DE2421B0240250000424E /* FriendsTableViewController.swift in Sources */,
+				F35DE24E1B0397B20000424E /* GithubRequest.swift in Sources */,
+				F35DE2501B03ACCD0000424E /* AddFriendViewController.swift in Sources */,
 				F35DE2461B0297690000424E /* ProfileViewController.swift in Sources */,
+				F35DE24C1B038F1F0000424E /* RepoTableViewCell.swift in Sources */,
+				F35DE24A1B0387EA0000424E /* FriendTableViewCell.swift in Sources */,
 				F35DE2221B02391A0000424E /* AppDelegate.swift in Sources */,
 				F35DE2481B02A2AC0000424E /* ReposTableViewController.swift in Sources */,
 			);

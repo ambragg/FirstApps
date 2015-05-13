@@ -59,41 +59,22 @@ class FriendsTableViewController: UITableViewController {
     
     @IBAction func addFriend(sender: AnyObject) {
         
-        let endpoint = "https://api.github.com/users/\(friendNameField.text)?client_id=18c2e67eaf44f4a60b76&client_secret=5528dd41089fd0a5de62e7927b849075b65463a0"
+        let endpoint = "https://api.github.com/users/\(friendNameField.text)"
         
 
         
         println(endpoint)
         
-        if let url = NSURL(string: endpoint) {
+        if let friendInfo = GithubRequest.getInfoWithEndpoint(endpoint) as? [String: AnyObject?] {
             
-            
-            let request = NSURLRequest(URL: url)
-            
-            if let data = NSURLConnection.sendSynchronousRequest(request, returningResponse: nil, error: nil) {
-                
-                println(data)
-                
-                if let friendInfo = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: nil) as? [String: AnyObject] {
-                    
-                    println(friendInfo)
-                    
-                    lastUserCreated = friendNameField.text
-                    
-                    friends.insert(friendInfo, atIndex: 0)
-                    tableView.reloadData()
-                }
-                
-                
-            }
-            
-            
-        }
         
+        println(friendInfo)
+        
+        friends.insert(friendInfo, atIndex: 0)
+        tableView.reloadData()
     
-        
-        
-        
+        }
+            
         friendNameField.text = ""
         
     }
@@ -120,18 +101,14 @@ class FriendsTableViewController: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("friendCell", forIndexPath: indexPath) as! UITableViewCell
-        
-        cell.textLabel?.text = friends[indexPath.row]["name"] as? String
+        let cell = tableView.dequeueReusableCellWithIdentifier("friendCell", forIndexPath: indexPath) as! FriendTableViewCell
         
         
-        let avatarURL = NSURL(string: friends[indexPath.row]["avatar_url"]! as! String)
-            
-            let imageData = NSData(contentsOfURL: avatarURL!)
-            
-            let image = UIImage(data: imageData!)
-            
-            cell.imageView!.image = image
+        cell.friendIndex = indexPath.row
+        cell.friendInfo = friends[indexPath.row]
+        
+        
+ 
             
         
         
@@ -180,14 +157,32 @@ class FriendsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "reposSegue" {
+            
+    
+            var reposTVC = segue.destinationViewController as! ReposTableViewController
+        
+            var reposButton = sender as! UIButton
+        
+            reposTVC.friendInfo = friends[reposButton.tag]
+        
+        
+         }
+        
+        //reposTVC.friendInfo =
+    
+    
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }
