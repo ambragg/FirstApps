@@ -13,6 +13,7 @@
 		F3AEB0731B0E15E700D07DED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AEB0721B0E15E700D07DED /* Images.xcassets */; };
 		F3AEB0761B0E15E700D07DED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AEB0741B0E15E700D07DED /* LaunchScreen.xib */; };
 		F3AEB0821B0E15E700D07DED /* MyWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AEB0811B0E15E700D07DED /* MyWorldTests.swift */; };
+		F3E405BA1B0F9B8100D0585E /* VenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E405B91B0F9B8100D0585E /* VenueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F3AEB07B1B0E15E700D07DED /* MyWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AEB0801B0E15E700D07DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3AEB0811B0E15E700D07DED /* MyWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorldTests.swift; sourceTree = "<group>"; };
+		F3E405B91B0F9B8100D0585E /* VenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F3AEB06D1B0E15E700D07DED /* ViewController.swift */,
 				F3AEB06F1B0E15E700D07DED /* Main.storyboard */,
+				F3E405B91B0F9B8100D0585E /* VenueViewController.swift */,
 				F3AEB0691B0E15E700D07DED /* Supporting Files */,
 			);
 			path = MyWorld;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E405BA1B0F9B8100D0585E /* VenueViewController.swift in Sources */,
 				F3AEB06E1B0E15E700D07DED /* ViewController.swift in Sources */,
 				F3AEB06C1B0E15E700D07DED /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				F3AEB0871B0E15E700D07DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3AEB0881B0E15E700D07DED /* Build configuration list for PBXNativeTarget "MyWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				F3AEB08A1B0E15E700D07DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
