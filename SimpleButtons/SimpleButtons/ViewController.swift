@@ -10,12 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // makes first number and second number to be pressed part of the calculation
     var firstNumber = ""
     var secondNumber = ""
     
+    //  makes the operation button that is pressed the current operation
     var currentOperation  = ""
     
+    
     @IBOutlet weak var resultsLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +31,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // determines the calculation based on operator pressed and displays the result
     @IBAction func operatorPressed(sender: UIButton) {
         
         let operation = sender.currentTitle!
@@ -86,6 +91,7 @@ class ViewController: UIViewController {
     
     }
     
+    // determines if an operator has been pressed to choosed which numbers to calculate
     @IBAction func pressedButton1(sender: UIButton) {
         
         let number = sender.currentTitle!

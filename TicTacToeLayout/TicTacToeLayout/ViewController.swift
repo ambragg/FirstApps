@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
    
+    // connected buttons for game board
     
     @IBOutlet weak var b1: UIButton!
     
@@ -21,12 +22,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var b4: UIButton!
     
     
+    @IBOutlet weak var b5: UIButton!
     
     
+    @IBOutlet weak var b6: UIButton!
     
+    
+    @IBOutlet weak var b7: UIButton!
+    
+    
+    @IBOutlet weak var b8: UIButton!
+    
+    
+    @IBOutlet weak var b9: UIButton!
+    
+    
+    // boolean to play game
     var isGameFinished: Bool = false
     
+    
+    
     var spaces: [[Player?]] = [
+        
+        // defines gameboard
     
         [nil,nil,nil],
         [nil,nil,nil],
@@ -41,17 +59,21 @@ class ViewController: UIViewController {
 
 
    
-
+    // made the first player to take action player One
     var currentPlayer: Player = .One
     
+    
+    //  connected restart button for new game
     @IBAction func restartButton(sender: UIButton) {
         
         newGame()
         
     }
     
+    
     @IBAction func buttonPressed(sender: TButton) {
       
+        // checks to see if game is finished and who is winner
         if isGameFinished == false {
         
             if sender.player != nil { return }
@@ -83,6 +105,7 @@ class ViewController: UIViewController {
         
     }
     
+    //  sets out all the winning possibilities
     var possibilities = [
             [0,0,0,1,0,2],
             [1,0,1,1,1,2],
@@ -95,6 +118,7 @@ class ViewController: UIViewController {
         
     ]
 
+    // checks for winner and determines which player won
     func checkForWinner() {
     
         for possibility in possibilities {
@@ -118,6 +142,7 @@ class ViewController: UIViewController {
         }
         
     }
+    
     
     func endGame() {
         // Game is now finished
@@ -145,6 +170,7 @@ class ViewController: UIViewController {
         isGameFinished = true
     }
     
+    // checks to see if game is finished
     func newGame() {
         
         isGameFinished = false

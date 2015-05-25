@@ -195,6 +195,11 @@
                         <outlet property="b2" destination="pQq-KF-XXL" id="g1f-RT-XT8"/>
                         <outlet property="b3" destination="aBx-yH-SyB" id="agh-cA-WWT"/>
                         <outlet property="b4" destination="yNu-Di-Dw5" id="QsR-Hp-ItG"/>
+                        <outlet property="b5" destination="wko-Nq-uLe" id="SJS-hk-pfa"/>
+                        <outlet property="b6" destination="HAK-KN-FSv" id="vf4-ge-6M4"/>
+                        <outlet property="b7" destination="OeR-IL-FGB" id="C0n-Xa-wHS"/>
+                        <outlet property="b8" destination="GGD-RJ-Thw" id="JaK-bs-0Hz"/>
+                        <outlet property="b9" destination="l5e-cj-rZo" id="jRs-wo-NWq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

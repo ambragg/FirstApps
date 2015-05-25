@@ -9,6 +9,34 @@
 import UIKit
 
 class VenueViewController: UIViewController {
+    
+    
+    
+    @IBOutlet weak var iconImage: UIImageView!
+    
+    
+            
+    let iconImage = UIImage = iconImage
+            
+    iconImage.layer.cornerRadius = 24
+    
+    iconImage.layer.masksToBounds = true
+    
+    
+    @IBOutlet weak var categoryInfo: UILabel!
+    
+    @IBOutlet weak var addressInfo: UILabel!
+    
+    @IBOutlet weak var usersInfo: UILabel!
+    
+    @IBOutlet weak var checkinsInfo: UILabel!
+    
+    @IBOutlet weak var tipsInfo: UILabel!
+    
+    
+    
+    @IBOutlet weak var hereNowInfo: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
