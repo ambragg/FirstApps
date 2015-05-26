@@ -14,6 +14,8 @@
 		F3AEB0761B0E15E700D07DED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AEB0741B0E15E700D07DED /* LaunchScreen.xib */; };
 		F3AEB0821B0E15E700D07DED /* MyWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AEB0811B0E15E700D07DED /* MyWorldTests.swift */; };
 		F3E405BA1B0F9B8100D0585E /* VenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E405B91B0F9B8100D0585E /* VenueViewController.swift */; };
+		F3FB4FF61B14AAFD009991F0 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FB4FF41B14AAFD009991F0 /* Fabric.framework */; };
+		F3FB4FF71B14AAFD009991F0 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FB4FF51B14AAFD009991F0 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F3AEB0801B0E15E700D07DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3AEB0811B0E15E700D07DED /* MyWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorldTests.swift; sourceTree = "<group>"; };
 		F3E405B91B0F9B8100D0585E /* VenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueViewController.swift; sourceTree = "<group>"; };
+		F3FB4FF41B14AAFD009991F0 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		F3FB4FF51B14AAFD009991F0 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FB4FF71B14AAFD009991F0 /* Crashlytics.framework in Frameworks */,
+				F3FB4FF61B14AAFD009991F0 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +67,7 @@
 		F3AEB05D1B0E15E700D07DED = {
 			isa = PBXGroup;
 			children = (
+				F3FB4FF31B14AAF0009991F0 /* Frameworks */,
 				F3AEB0681B0E15E700D07DED /* MyWorld */,
 				F3AEB07E1B0E15E700D07DED /* MyWorldTests */,
 				F3AEB0671B0E15E700D07DED /* Products */,
@@ -115,6 +122,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3FB4FF31B14AAF0009991F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB4FF41B14AAFD009991F0 /* Fabric.framework */,
+				F3FB4FF51B14AAFD009991F0 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +141,7 @@
 				F3AEB0621B0E15E700D07DED /* Sources */,
 				F3AEB0631B0E15E700D07DED /* Frameworks */,
 				F3AEB0641B0E15E700D07DED /* Resources */,
+				F3FB4FF21B14AA75009991F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -209,6 +226,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3FB4FF21B14AA75009991F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c5a49a17fb53c18247a02af7234a548f1693d49c 8bcf60eb4728cf1b658f4b8b132f4e8de04e97ec71771a698b2519dab88d6a40";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3AEB0621B0E15E700D07DED /* Sources */ = {
@@ -344,6 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +391,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

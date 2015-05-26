@@ -16,11 +16,11 @@ class VenueViewController: UIViewController {
     
     
             
-    let iconImage = UIImage = iconImage
-            
-    iconImage.layer.cornerRadius = 24
-    
-    iconImage.layer.masksToBounds = true
+//    let iconImage = UIImage = iconImage
+//            
+//    iconImage.layer.cornerRadius = 24
+//    
+//    iconImage.layer.masksToBounds = true
     
     
     @IBOutlet weak var categoryInfo: UILabel!

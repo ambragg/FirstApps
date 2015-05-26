@@ -9,6 +9,8 @@
 
 import UIKit
 import MapKit
+import Fabric
+import Crashlytics
 
 class MyAnnotation : MKPointAnnotation {
     
@@ -40,7 +42,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         lManager.startUpdatingLocation()
         
-
+//        Crashlytics.sharedInstance().crash()
         
     }
 
@@ -176,7 +178,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         navigationController?.pushViewController(detailVC, animated: true)
         
 
-        
+ 
     }
 }
+
+
+
+
+
+
+
+
 
