@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F17B4F9CE0D0F616C240BA7 /* Pods-FancyButton-ZFRippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5ADE7085F0D4BA1D2C836C /* Pods-FancyButton-ZFRippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF6E4B2B0BD0E762EE3D647 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D14F916345811BFAAF99F6 /* ZFRippleButton.swift */; };
+		7B0054E9A65E2B3F498EA1AA /* Pods-FancyButton-ZFRippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE766FF52B38999D69378B11 /* Pods-FancyButton-ZFRippleButton-dummy.m */; };
+		8112FD91BED56F8DA3BEFFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED643D08D6885C55CABDC9D /* Foundation.framework */; };
+		B09EC69D81175F2E61966B6A /* Pods-FancyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BE961C15C50C8BCE875500 /* Pods-FancyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD95814327D7EC4853494712 /* Pods-FancyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C669D6CAE7985201C7B036 /* Pods-FancyButton-dummy.m */; };
+		E4AFCF03EB7A0130BDBDFC0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED643D08D6885C55CABDC9D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F74DFFBA073D1A10B812CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB68A4EFE18C9E324CB05381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33246075CA3BEB59DE12F2EC;
+			remoteInfo = "Pods-FancyButton-ZFRippleButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C669D6CAE7985201C7B036 /* Pods-FancyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyButton-dummy.m"; sourceTree = "<group>"; };
+		352756A3F6D491CEE1D0C133 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C443B4688D8BB3624D929B /* Pods-FancyButton-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyButton-environment.h"; sourceTree = "<group>"; };
+		3C29C78C9A826F8220BB34AB /* Pods_FancyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4807D7A47BCEED5A0F5D53EA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A40CED8918C10BA457F34FB /* Pods-FancyButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FancyButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		595E0AE712271D225EE6EC70 /* Pods-FancyButton-ZFRippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyButton-ZFRippleButton-prefix.pch"; sourceTree = "<group>"; };
+		6696A461E270F38B45FFF9C7 /* Pods-FancyButton-ZFRippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FancyButton-ZFRippleButton.modulemap"; sourceTree = "<group>"; };
+		67D14F916345811BFAAF99F6 /* ZFRippleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZFRippleButton.swift; path = Classes/ZFRippleButton.swift; sourceTree = "<group>"; };
+		AE766FF52B38999D69378B11 /* Pods-FancyButton-ZFRippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyButton-ZFRippleButton-dummy.m"; sourceTree = "<group>"; };
+		B3174A9E3729800BADDF7130 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA28F9E298703A281708B94 /* Pods-FancyButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyButton-resources.sh"; sourceTree = "<group>"; };
+		CB86EF1A645EEF6B57B8F511 /* Pods-FancyButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton.debug.xcconfig"; sourceTree = "<group>"; };
+		D96BFD49F1E9A6613D879136 /* Pods-FancyButton-ZFRippleButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton-ZFRippleButton-Private.xcconfig"; sourceTree = "<group>"; };
+		DC5ADE7085F0D4BA1D2C836C /* Pods-FancyButton-ZFRippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyButton-ZFRippleButton-umbrella.h"; sourceTree = "<group>"; };
+		DCF83E68850A64AEE1631A27 /* Pods-FancyButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyButton-frameworks.sh"; sourceTree = "<group>"; };
+		E1F14E6D42D65B0FCBC3FBDA /* Pods-FancyButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton.release.xcconfig"; sourceTree = "<group>"; };
+		E3D0F7B19165606490FFC8F0 /* Pods-FancyButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9BE961C15C50C8BCE875500 /* Pods-FancyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyButton-umbrella.h"; sourceTree = "<group>"; };
+		ECDFD5DF31C8933F1A170CBB /* ZFRippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZFRippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED643D08D6885C55CABDC9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAE6FF97228A0B87FF68810C /* Pods-FancyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FancyButton.modulemap"; sourceTree = "<group>"; };
+		FDD18300BEFD95B748DAF2D2 /* Pods-FancyButton-ZFRippleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyButton-ZFRippleButton.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0CEC3628A01DE0CDE44D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AFCF03EB7A0130BDBDFC0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615FC322FBBE828E74FED27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8112FD91BED56F8DA3BEFFBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED4B469BD40F96BD9EC8EFF /* Pods-FancyButton */ = {
+			isa = PBXGroup;
+			children = (
+				352756A3F6D491CEE1D0C133 /* Info.plist */,
+				FAE6FF97228A0B87FF68810C /* Pods-FancyButton.modulemap */,
+				4A40CED8918C10BA457F34FB /* Pods-FancyButton-acknowledgements.markdown */,
+				E3D0F7B19165606490FFC8F0 /* Pods-FancyButton-acknowledgements.plist */,
+				14C669D6CAE7985201C7B036 /* Pods-FancyButton-dummy.m */,
+				35C443B4688D8BB3624D929B /* Pods-FancyButton-environment.h */,
+				DCF83E68850A64AEE1631A27 /* Pods-FancyButton-frameworks.sh */,
+				CAA28F9E298703A281708B94 /* Pods-FancyButton-resources.sh */,
+				E9BE961C15C50C8BCE875500 /* Pods-FancyButton-umbrella.h */,
+				CB86EF1A645EEF6B57B8F511 /* Pods-FancyButton.debug.xcconfig */,
+				E1F14E6D42D65B0FCBC3FBDA /* Pods-FancyButton.release.xcconfig */,
+			);
+			name = "Pods-FancyButton";
+			path = "Target Support Files/Pods-FancyButton";
+			sourceTree = "<group>";
+		};
+		162DE4457B6DCC656EB81B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC240F46DD6ECB03944A0986 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B8E4D6FABE1051ED4A0CCB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4B469BD40F96BD9EC8EFF /* Pods-FancyButton */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C759EFD2E6998B60B2038F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3174A9E3729800BADDF7130 /* Info.plist */,
+				6696A461E270F38B45FFF9C7 /* Pods-FancyButton-ZFRippleButton.modulemap */,
+				FDD18300BEFD95B748DAF2D2 /* Pods-FancyButton-ZFRippleButton.xcconfig */,
+				D96BFD49F1E9A6613D879136 /* Pods-FancyButton-ZFRippleButton-Private.xcconfig */,
+				AE766FF52B38999D69378B11 /* Pods-FancyButton-ZFRippleButton-dummy.m */,
+				595E0AE712271D225EE6EC70 /* Pods-FancyButton-ZFRippleButton-prefix.pch */,
+				DC5ADE7085F0D4BA1D2C836C /* Pods-FancyButton-ZFRippleButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FancyButton-ZFRippleButton";
+			sourceTree = "<group>";
+		};
+		4EE760E092C89EBB7BDE0217 = {
+			isa = PBXGroup;
+			children = (
+				4807D7A47BCEED5A0F5D53EA /* Podfile */,
+				162DE4457B6DCC656EB81B26 /* Frameworks */,
+				C820C7164D69A056C2BE55C7 /* Pods */,
+				6E45BE505DCBC55F60C933CE /* Products */,
+				3B8E4D6FABE1051ED4A0CCB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6E45BE505DCBC55F60C933CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C29C78C9A826F8220BB34AB /* Pods_FancyButton.framework */,
+				ECDFD5DF31C8933F1A170CBB /* ZFRippleButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C820C7164D69A056C2BE55C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9849D8968D3BDA879096A91 /* ZFRippleButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9849D8968D3BDA879096A91 /* ZFRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				67D14F916345811BFAAF99F6 /* ZFRippleButton.swift */,
+				3C759EFD2E6998B60B2038F0 /* Support Files */,
+			);
+			path = ZFRippleButton;
+			sourceTree = "<group>";
+		};
+		DC240F46DD6ECB03944A0986 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EED643D08D6885C55CABDC9D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AF93DFD2894E5EEA45DD168 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F17B4F9CE0D0F616C240BA7 /* Pods-FancyButton-ZFRippleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A124E30D7BB6DF2DAEB2EF38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09EC69D81175F2E61966B6A /* Pods-FancyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33246075CA3BEB59DE12F2EC /* Pods-FancyButton-ZFRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2042DA902870347AE03DBA9 /* Build configuration list for PBXNativeTarget "Pods-FancyButton-ZFRippleButton" */;
+			buildPhases = (
+				4D3B1EE50A1771C7B99633FE /* Sources */,
+				1B0CEC3628A01DE0CDE44D7A /* Frameworks */,
+				6AF93DFD2894E5EEA45DD168 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FancyButton-ZFRippleButton";
+			productName = "Pods-FancyButton-ZFRippleButton";
+			productReference = ECDFD5DF31C8933F1A170CBB /* ZFRippleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C316338599FDEAE10E880A3 /* Pods-FancyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870BFA2CB53096CD71756DDB /* Build configuration list for PBXNativeTarget "Pods-FancyButton" */;
+			buildPhases = (
+				DDA4945F82EB63398297108A /* Sources */,
+				615FC322FBBE828E74FED27E /* Frameworks */,
+				A124E30D7BB6DF2DAEB2EF38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65D8A165629709317FB92D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FancyButton";
+			productName = "Pods-FancyButton";
+			productReference = 3C29C78C9A826F8220BB34AB /* Pods_FancyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB68A4EFE18C9E324CB05381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 399CEC474C4DB749FA06906F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EE760E092C89EBB7BDE0217;
+			productRefGroup = 6E45BE505DCBC55F60C933CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C316338599FDEAE10E880A3 /* Pods-FancyButton */,
+				33246075CA3BEB59DE12F2EC /* Pods-FancyButton-ZFRippleButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3B1EE50A1771C7B99633FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0054E9A65E2B3F498EA1AA /* Pods-FancyButton-ZFRippleButton-dummy.m in Sources */,
+				4AF6E4B2B0BD0E762EE3D647 /* ZFRippleButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4945F82EB63398297108A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD95814327D7EC4853494712 /* Pods-FancyButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65D8A165629709317FB92D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FancyButton-ZFRippleButton";
+			target = 33246075CA3BEB59DE12F2EC /* Pods-FancyButton-ZFRippleButton */;
+			targetProxy = 6F74DFFBA073D1A10B812CEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1670925964D9359296D02AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40CB067005DAED843CFCE957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5720CF25908E2098338429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96BFD49F1E9A6613D879136 /* Pods-FancyButton-ZFRippleButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FancyButton-ZFRippleButton/Pods-FancyButton-ZFRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton-ZFRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton-ZFRippleButton/Pods-FancyButton-ZFRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZFRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F0186CBB02DF6A93FAABDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB86EF1A645EEF6B57B8F511 /* Pods-FancyButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton/Pods-FancyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FancyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1E4E39079CF3B4E883E9F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F14E6D42D65B0FCBC3FBDA /* Pods-FancyButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton/Pods-FancyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FancyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C388768F772809CB50192D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96BFD49F1E9A6613D879136 /* Pods-FancyButton-ZFRippleButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FancyButton-ZFRippleButton/Pods-FancyButton-ZFRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FancyButton-ZFRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FancyButton-ZFRippleButton/Pods-FancyButton-ZFRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZFRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399CEC474C4DB749FA06906F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1670925964D9359296D02AC7 /* Debug */,
+				40CB067005DAED843CFCE957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870BFA2CB53096CD71756DDB /* Build configuration list for PBXNativeTarget "Pods-FancyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0186CBB02DF6A93FAABDAF /* Debug */,
+				C1E4E39079CF3B4E883E9F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2042DA902870347AE03DBA9 /* Build configuration list for PBXNativeTarget "Pods-FancyButton-ZFRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C388768F772809CB50192D6F /* Debug */,
+				5D5720CF25908E2098338429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB68A4EFE18C9E324CB05381 /* Project object */;
+}

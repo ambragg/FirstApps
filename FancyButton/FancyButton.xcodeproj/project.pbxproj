@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DCC34AC4150FFB4FDEABAF5 /* Pods_FancyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97EFCF5BD509387F3883EFD /* Pods_FancyButton.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F3FB504A1B161DE4009991F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB50491B161DE4009991F0 /* AppDelegate.swift */; };
+		F3FB504C1B161DE4009991F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB504B1B161DE4009991F0 /* ViewController.swift */; };
+		F3FB504F1B161DE4009991F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FB504D1B161DE4009991F0 /* Main.storyboard */; };
+		F3FB50511B161DE4009991F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FB50501B161DE4009991F0 /* Images.xcassets */; };
+		F3FB50541B161DE4009991F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FB50521B161DE4009991F0 /* LaunchScreen.xib */; };
+		F3FB50601B161DE4009991F0 /* FancyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB505F1B161DE4009991F0 /* FancyButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3FB505A1B161DE4009991F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FB503C1B161DE4009991F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FB50431B161DE4009991F0;
+			remoteInfo = FancyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139D4FD65D41B081B61AC790 /* Pods-FancyButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-FancyButton/Pods-FancyButton.release.xcconfig"; sourceTree = "<group>"; };
+		B97EFCF5BD509387F3883EFD /* Pods_FancyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113CF0753D55FD6737FB085 /* Pods-FancyButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FancyButton/Pods-FancyButton.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FB50441B161DE4009991F0 /* FancyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FB50481B161DE4009991F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FB50491B161DE4009991F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3FB504B1B161DE4009991F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3FB504E1B161DE4009991F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3FB50501B161DE4009991F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3FB50531B161DE4009991F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F3FB50591B161DE4009991F0 /* FancyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FB505E1B161DE4009991F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FB505F1B161DE4009991F0 /* FancyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FB50411B161DE4009991F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCC34AC4150FFB4FDEABAF5 /* Pods_FancyButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FB50561B161DE4009991F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BE9BEBEE937F5744285552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B97EFCF5BD509387F3883EFD /* Pods_FancyButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7ABA5B4B32C529EC567A206 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E113CF0753D55FD6737FB085 /* Pods-FancyButton.debug.xcconfig */,
+				139D4FD65D41B081B61AC790 /* Pods-FancyButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3FB503B1B161DE4009991F0 = {
+			isa = PBXGroup;
+			children = (
+				F3FB50461B161DE4009991F0 /* FancyButton */,
+				F3FB505C1B161DE4009991F0 /* FancyButtonTests */,
+				F3FB50451B161DE4009991F0 /* Products */,
+				C7ABA5B4B32C529EC567A206 /* Pods */,
+				10BE9BEBEE937F5744285552 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FB50451B161DE4009991F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB50441B161DE4009991F0 /* FancyButton.app */,
+				F3FB50591B161DE4009991F0 /* FancyButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FB50461B161DE4009991F0 /* FancyButton */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB50491B161DE4009991F0 /* AppDelegate.swift */,
+				F3FB504B1B161DE4009991F0 /* ViewController.swift */,
+				F3FB504D1B161DE4009991F0 /* Main.storyboard */,
+				F3FB50501B161DE4009991F0 /* Images.xcassets */,
+				F3FB50521B161DE4009991F0 /* LaunchScreen.xib */,
+				F3FB50471B161DE4009991F0 /* Supporting Files */,
+			);
+			path = FancyButton;
+			sourceTree = "<group>";
+		};
+		F3FB50471B161DE4009991F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB50481B161DE4009991F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3FB505C1B161DE4009991F0 /* FancyButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB505F1B161DE4009991F0 /* FancyButtonTests.swift */,
+				F3FB505D1B161DE4009991F0 /* Supporting Files */,
+			);
+			path = FancyButtonTests;
+			sourceTree = "<group>";
+		};
+		F3FB505D1B161DE4009991F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB505E1B161DE4009991F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FB50431B161DE4009991F0 /* FancyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FB50631B161DE4009991F0 /* Build configuration list for PBXNativeTarget "FancyButton" */;
+			buildPhases = (
+				207EFB3A59FA592E4F1B89B1 /* Check Pods Manifest.lock */,
+				F3FB50401B161DE4009991F0 /* Sources */,
+				F3FB50411B161DE4009991F0 /* Frameworks */,
+				F3FB50421B161DE4009991F0 /* Resources */,
+				4EFDDBDABADFDC7C336FA1E9 /* Embed Pods Frameworks */,
+				55E5D94F621A8C5DA0E70070 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyButton;
+			productName = FancyButton;
+			productReference = F3FB50441B161DE4009991F0 /* FancyButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3FB50581B161DE4009991F0 /* FancyButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FB50661B161DE4009991F0 /* Build configuration list for PBXNativeTarget "FancyButtonTests" */;
+			buildPhases = (
+				F3FB50551B161DE4009991F0 /* Sources */,
+				F3FB50561B161DE4009991F0 /* Frameworks */,
+				F3FB50571B161DE4009991F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FB505B1B161DE4009991F0 /* PBXTargetDependency */,
+			);
+			name = FancyButtonTests;
+			productName = FancyButtonTests;
+			productReference = F3FB50591B161DE4009991F0 /* FancyButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FB503C1B161DE4009991F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aimee Bragg";
+				TargetAttributes = {
+					F3FB50431B161DE4009991F0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F3FB50581B161DE4009991F0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F3FB50431B161DE4009991F0;
+					};
+				};
+			};
+			buildConfigurationList = F3FB503F1B161DE4009991F0 /* Build configuration list for PBXProject "FancyButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FB503B1B161DE4009991F0;
+			productRefGroup = F3FB50451B161DE4009991F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FB50431B161DE4009991F0 /* FancyButton */,
+				F3FB50581B161DE4009991F0 /* FancyButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FB50421B161DE4009991F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FB504F1B161DE4009991F0 /* Main.storyboard in Resources */,
+				F3FB50541B161DE4009991F0 /* LaunchScreen.xib in Resources */,
+				F3FB50511B161DE4009991F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FB50571B161DE4009991F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		207EFB3A59FA592E4F1B89B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFDDBDABADFDC7C336FA1E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FancyButton/Pods-FancyButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E5D94F621A8C5DA0E70070 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FancyButton/Pods-FancyButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FB50401B161DE4009991F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FB504C1B161DE4009991F0 /* ViewController.swift in Sources */,
+				F3FB504A1B161DE4009991F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FB50551B161DE4009991F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FB50601B161DE4009991F0 /* FancyButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3FB505B1B161DE4009991F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FB50431B161DE4009991F0 /* FancyButton */;
+			targetProxy = F3FB505A1B161DE4009991F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3FB504D1B161DE4009991F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3FB504E1B161DE4009991F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3FB50521B161DE4009991F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3FB50531B161DE4009991F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3FB50611B161DE4009991F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FB50621B161DE4009991F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FB50641B161DE4009991F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E113CF0753D55FD6737FB085 /* Pods-FancyButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FancyButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3FB50651B161DE4009991F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D4FD65D41B081B61AC790 /* Pods-FancyButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FancyButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3FB50671B161DE4009991F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FancyButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyButton.app/FancyButton";
+			};
+			name = Debug;
+		};
+		F3FB50681B161DE4009991F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FancyButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FancyButton.app/FancyButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FB503F1B161DE4009991F0 /* Build configuration list for PBXProject "FancyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FB50611B161DE4009991F0 /* Debug */,
+				F3FB50621B161DE4009991F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FB50631B161DE4009991F0 /* Build configuration list for PBXNativeTarget "FancyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FB50641B161DE4009991F0 /* Debug */,
+				F3FB50651B161DE4009991F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FB50661B161DE4009991F0 /* Build configuration list for PBXNativeTarget "FancyButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FB50671B161DE4009991F0 /* Debug */,
+				F3FB50681B161DE4009991F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3FB503C1B161DE4009991F0 /* Project object */;
+}

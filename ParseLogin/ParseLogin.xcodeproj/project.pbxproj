@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38B22F21B17A4000055FC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B22F11B17A4000055FC38 /* AppDelegate.swift */; };
+		F38B22F41B17A4000055FC38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B22F31B17A4000055FC38 /* ViewController.swift */; };
+		F38B22F71B17A4000055FC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38B22F51B17A4000055FC38 /* Main.storyboard */; };
+		F38B22F91B17A4000055FC38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38B22F81B17A4000055FC38 /* Images.xcassets */; };
+		F38B22FC1B17A4000055FC38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38B22FA1B17A4000055FC38 /* LaunchScreen.xib */; };
+		F38B23081B17A4000055FC38 /* ParseLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B23071B17A4000055FC38 /* ParseLoginTests.swift */; };
+		F38B23131B17A4890055FC38 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23121B17A4890055FC38 /* Bolts.framework */; };
+		F38B23151B17A4A20055FC38 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23141B17A4A20055FC38 /* Parse.framework */; };
+		F38B23171B17A6070055FC38 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23161B17A6070055FC38 /* AudioToolbox.framework */; };
+		F38B23191B17A60F0055FC38 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23181B17A60F0055FC38 /* CFNetwork.framework */; };
+		F38B231B1B17A61A0055FC38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B231A1B17A61A0055FC38 /* CoreGraphics.framework */; };
+		F38B231D1B17A6230055FC38 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B231C1B17A6230055FC38 /* CoreLocation.framework */; };
+		F38B231F1B17A62C0055FC38 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B231E1B17A62C0055FC38 /* MobileCoreServices.framework */; };
+		F38B23211B17A66A0055FC38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23201B17A66A0055FC38 /* QuartzCore.framework */; };
+		F38B23231B17A6720055FC38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23221B17A6720055FC38 /* Security.framework */; };
+		F38B23251B17A67A0055FC38 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23241B17A67A0055FC38 /* StoreKit.framework */; };
+		F38B23271B17A6850055FC38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23261B17A6850055FC38 /* SystemConfiguration.framework */; };
+		F38B23291B17A6910055FC38 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B23281B17A6910055FC38 /* libz.dylib */; };
+		F38B232B1B17A6A30055FC38 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B232A1B17A6A30055FC38 /* libsqlite3.dylib */; };
+		F38B232D1B17C0090055FC38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B232C1B17C0090055FC38 /* SignUpViewController.swift */; };
+		F38B232F1B17C0330055FC38 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38B232E1B17C0330055FC38 /* LogInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38B23021B17A4000055FC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38B22E41B17A4000055FC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38B22EB1B17A4000055FC38;
+			remoteInfo = ParseLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F38B22EC1B17A4000055FC38 /* ParseLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38B22F01B17A4000055FC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38B22F11B17A4000055FC38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F38B22F31B17A4000055FC38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F38B22F61B17A4000055FC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38B22F81B17A4000055FC38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F38B22FB1B17A4000055FC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F38B23011B17A4000055FC38 /* ParseLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38B23061B17A4000055FC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38B23071B17A4000055FC38 /* ParseLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseLoginTests.swift; sourceTree = "<group>"; };
+		F38B23121B17A4890055FC38 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F38B23141B17A4A20055FC38 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F38B23161B17A6070055FC38 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F38B23181B17A60F0055FC38 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F38B231A1B17A61A0055FC38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F38B231C1B17A6230055FC38 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F38B231E1B17A62C0055FC38 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F38B23201B17A66A0055FC38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F38B23221B17A6720055FC38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F38B23241B17A67A0055FC38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F38B23261B17A6850055FC38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F38B23281B17A6910055FC38 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F38B232A1B17A6A30055FC38 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F38B232C1B17C0090055FC38 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F38B232E1B17C0330055FC38 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38B22E91B17A4000055FC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38B232B1B17A6A30055FC38 /* libsqlite3.dylib in Frameworks */,
+				F38B23291B17A6910055FC38 /* libz.dylib in Frameworks */,
+				F38B23271B17A6850055FC38 /* SystemConfiguration.framework in Frameworks */,
+				F38B23251B17A67A0055FC38 /* StoreKit.framework in Frameworks */,
+				F38B23231B17A6720055FC38 /* Security.framework in Frameworks */,
+				F38B23211B17A66A0055FC38 /* QuartzCore.framework in Frameworks */,
+				F38B231F1B17A62C0055FC38 /* MobileCoreServices.framework in Frameworks */,
+				F38B231D1B17A6230055FC38 /* CoreLocation.framework in Frameworks */,
+				F38B231B1B17A61A0055FC38 /* CoreGraphics.framework in Frameworks */,
+				F38B23191B17A60F0055FC38 /* CFNetwork.framework in Frameworks */,
+				F38B23171B17A6070055FC38 /* AudioToolbox.framework in Frameworks */,
+				F38B23151B17A4A20055FC38 /* Parse.framework in Frameworks */,
+				F38B23131B17A4890055FC38 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38B22FE1B17A4000055FC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38B22E31B17A4000055FC38 = {
+			isa = PBXGroup;
+			children = (
+				F38B22EE1B17A4000055FC38 /* ParseLogin */,
+				F38B23041B17A4000055FC38 /* ParseLoginTests */,
+				F38B22ED1B17A4000055FC38 /* Products */,
+				F38B23111B17A41C0055FC38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F38B22ED1B17A4000055FC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38B22EC1B17A4000055FC38 /* ParseLogin.app */,
+				F38B23011B17A4000055FC38 /* ParseLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38B22EE1B17A4000055FC38 /* ParseLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F38B22F11B17A4000055FC38 /* AppDelegate.swift */,
+				F38B22F31B17A4000055FC38 /* ViewController.swift */,
+				F38B22F51B17A4000055FC38 /* Main.storyboard */,
+				F38B232C1B17C0090055FC38 /* SignUpViewController.swift */,
+				F38B232E1B17C0330055FC38 /* LogInViewController.swift */,
+				F38B22EF1B17A4000055FC38 /* Supporting Files */,
+			);
+			path = ParseLogin;
+			sourceTree = "<group>";
+		};
+		F38B22EF1B17A4000055FC38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38B22FA1B17A4000055FC38 /* LaunchScreen.xib */,
+				F38B22F81B17A4000055FC38 /* Images.xcassets */,
+				F38B22F01B17A4000055FC38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38B23041B17A4000055FC38 /* ParseLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F38B23071B17A4000055FC38 /* ParseLoginTests.swift */,
+				F38B23051B17A4000055FC38 /* Supporting Files */,
+			);
+			path = ParseLoginTests;
+			sourceTree = "<group>";
+		};
+		F38B23051B17A4000055FC38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38B23061B17A4000055FC38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38B23111B17A41C0055FC38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F38B232A1B17A6A30055FC38 /* libsqlite3.dylib */,
+				F38B23281B17A6910055FC38 /* libz.dylib */,
+				F38B23261B17A6850055FC38 /* SystemConfiguration.framework */,
+				F38B23241B17A67A0055FC38 /* StoreKit.framework */,
+				F38B23221B17A6720055FC38 /* Security.framework */,
+				F38B23201B17A66A0055FC38 /* QuartzCore.framework */,
+				F38B231E1B17A62C0055FC38 /* MobileCoreServices.framework */,
+				F38B231C1B17A6230055FC38 /* CoreLocation.framework */,
+				F38B231A1B17A61A0055FC38 /* CoreGraphics.framework */,
+				F38B23181B17A60F0055FC38 /* CFNetwork.framework */,
+				F38B23161B17A6070055FC38 /* AudioToolbox.framework */,
+				F38B23121B17A4890055FC38 /* Bolts.framework */,
+				F38B23141B17A4A20055FC38 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38B22EB1B17A4000055FC38 /* ParseLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38B230B1B17A4000055FC38 /* Build configuration list for PBXNativeTarget "ParseLogin" */;
+			buildPhases = (
+				F38B22E81B17A4000055FC38 /* Sources */,
+				F38B22E91B17A4000055FC38 /* Frameworks */,
+				F38B22EA1B17A4000055FC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseLogin;
+			productName = ParseLogin;
+			productReference = F38B22EC1B17A4000055FC38 /* ParseLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38B23001B17A4000055FC38 /* ParseLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38B230E1B17A4000055FC38 /* Build configuration list for PBXNativeTarget "ParseLoginTests" */;
+			buildPhases = (
+				F38B22FD1B17A4000055FC38 /* Sources */,
+				F38B22FE1B17A4000055FC38 /* Frameworks */,
+				F38B22FF1B17A4000055FC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38B23031B17A4000055FC38 /* PBXTargetDependency */,
+			);
+			name = ParseLoginTests;
+			productName = ParseLoginTests;
+			productReference = F38B23011B17A4000055FC38 /* ParseLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38B22E41B17A4000055FC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aimee Bragg";
+				TargetAttributes = {
+					F38B22EB1B17A4000055FC38 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F38B23001B17A4000055FC38 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F38B22EB1B17A4000055FC38;
+					};
+				};
+			};
+			buildConfigurationList = F38B22E71B17A4000055FC38 /* Build configuration list for PBXProject "ParseLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38B22E31B17A4000055FC38;
+			productRefGroup = F38B22ED1B17A4000055FC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38B22EB1B17A4000055FC38 /* ParseLogin */,
+				F38B23001B17A4000055FC38 /* ParseLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38B22EA1B17A4000055FC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38B22F71B17A4000055FC38 /* Main.storyboard in Resources */,
+				F38B22FC1B17A4000055FC38 /* LaunchScreen.xib in Resources */,
+				F38B22F91B17A4000055FC38 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38B22FF1B17A4000055FC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38B22E81B17A4000055FC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38B232F1B17C0330055FC38 /* LogInViewController.swift in Sources */,
+				F38B232D1B17C0090055FC38 /* SignUpViewController.swift in Sources */,
+				F38B22F41B17A4000055FC38 /* ViewController.swift in Sources */,
+				F38B22F21B17A4000055FC38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38B22FD1B17A4000055FC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38B23081B17A4000055FC38 /* ParseLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38B23031B17A4000055FC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38B22EB1B17A4000055FC38 /* ParseLogin */;
+			targetProxy = F38B23021B17A4000055FC38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38B22F51B17A4000055FC38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38B22F61B17A4000055FC38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38B22FA1B17A4000055FC38 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38B22FB1B17A4000055FC38 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38B23091B17A4000055FC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F38B230A1B17A4000055FC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38B230C1B17A4000055FC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ParseLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F38B230D1B17A4000055FC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ParseLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F38B230F1B17A4000055FC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParseLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLogin.app/ParseLogin";
+			};
+			name = Debug;
+		};
+		F38B23101B17A4000055FC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParseLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLogin.app/ParseLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38B22E71B17A4000055FC38 /* Build configuration list for PBXProject "ParseLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38B23091B17A4000055FC38 /* Debug */,
+				F38B230A1B17A4000055FC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38B230B1B17A4000055FC38 /* Build configuration list for PBXNativeTarget "ParseLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38B230C1B17A4000055FC38 /* Debug */,
+				F38B230D1B17A4000055FC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F38B230E1B17A4000055FC38 /* Build configuration list for PBXNativeTarget "ParseLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38B230F1B17A4000055FC38 /* Debug */,
+				F38B23101B17A4000055FC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38B22E41B17A4000055FC38 /* Project object */;
+}
