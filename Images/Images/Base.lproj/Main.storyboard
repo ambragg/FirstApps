@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eh9-4g-z6x">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Song Collection View Controller-->
+        <scene sceneID="u0f-sF-buI">
+            <objects>
+                <collectionViewController id="eh9-4g-z6x" customClass="SongCollectionViewController" customModule="Images" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ty6-6g-ym8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rr3-iw-dWu">
+                            <size key="itemSize" width="130" height="130"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="65" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <view key="backgroundView" contentMode="scaleToFill" id="ROd-KL-6YU">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="U2B-8J-tKi">
+                                    <rect key="frame" x="0.0" y="21" width="600" height="44"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="U2B-8J-tKi" firstAttribute="top" secondItem="ROd-KL-6YU" secondAttribute="top" constant="21" id="8eI-Mi-QZV"/>
+                                <constraint firstItem="U2B-8J-tKi" firstAttribute="leading" secondItem="ROd-KL-6YU" secondAttribute="leading" id="G1e-8S-xP3"/>
+                                <constraint firstAttribute="centerX" secondItem="U2B-8J-tKi" secondAttribute="centerX" constant="-8" id="Ohz-wv-wqq"/>
+                                <constraint firstAttribute="trailing" secondItem="U2B-8J-tKi" secondAttribute="trailing" id="Ow2-NY-GjQ"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Ohz-wv-wqq"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="songCollectionCell" id="BZ2-SJ-fgD">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ef4-Rx-xz4">
+                                            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="ef4-Rx-xz4" secondAttribute="bottom" constant="-8" id="Qfv-Ef-jcO"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="ef4-Rx-xz4" secondAttribute="trailing" constant="-8" id="Xtd-zg-dgi"/>
+                                    <constraint firstItem="ef4-Rx-xz4" firstAttribute="leading" secondItem="BZ2-SJ-fgD" secondAttribute="leadingMargin" constant="-8" id="hdA-Hl-idZ"/>
+                                    <constraint firstItem="ef4-Rx-xz4" firstAttribute="top" secondItem="BZ2-SJ-fgD" secondAttribute="topMargin" constant="-8" id="o7p-yI-hw4"/>
+                                </constraints>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="eh9-4g-z6x" id="fLg-ZH-frA"/>
+                            <outlet property="delegate" destination="eh9-4g-z6x" id="JoV-di-PNw"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="searchBarOutlet" destination="U2B-8J-tKi" id="QFG-iW-a0n"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hx1-7u-AhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="345" y="75"/>
+        </scene>
+    </scenes>
+</document>
