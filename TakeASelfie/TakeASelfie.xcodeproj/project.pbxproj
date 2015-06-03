@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3125CBB1B1F3474002ED749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3125CBA1B1F3474002ED749 /* main.m */; };
+		F3125CBE1B1F3474002ED749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3125CBD1B1F3474002ED749 /* AppDelegate.m */; };
+		F3125CC11B1F3474002ED749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3125CC01B1F3474002ED749 /* ViewController.m */; };
+		F3125CC41B1F3474002ED749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3125CC21B1F3474002ED749 /* Main.storyboard */; };
+		F3125CC61B1F3474002ED749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3125CC51B1F3474002ED749 /* Images.xcassets */; };
+		F3125CC91B1F3474002ED749 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3125CC71B1F3474002ED749 /* LaunchScreen.xib */; };
+		F3125CD51B1F3474002ED749 /* TakeASelfieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3125CD41B1F3474002ED749 /* TakeASelfieTests.m */; };
+		F3125CE11B1F3E08002ED749 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3125CE01B1F3E08002ED749 /* CameraViewController.m */; };
+		F3125CE51B1F7DED002ED749 /* FilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3125CE41B1F7DED002ED749 /* FilterCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3125CCF1B1F3474002ED749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3125CAD1B1F3474002ED749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3125CB41B1F3474002ED749;
+			remoteInfo = TakeASelfie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3125CB51B1F3474002ED749 /* TakeASelfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeASelfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3125CB91B1F3474002ED749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3125CBA1B1F3474002ED749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3125CBC1B1F3474002ED749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3125CBD1B1F3474002ED749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3125CBF1B1F3474002ED749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3125CC01B1F3474002ED749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3125CC31B1F3474002ED749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3125CC51B1F3474002ED749 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3125CC81B1F3474002ED749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F3125CCE1B1F3474002ED749 /* TakeASelfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeASelfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3125CD31B1F3474002ED749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3125CD41B1F3474002ED749 /* TakeASelfieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeASelfieTests.m; sourceTree = "<group>"; };
+		F3125CE01B1F3E08002ED749 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		F3125CE21B1F3E0E002ED749 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		F3125CE31B1F7DED002ED749 /* FilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterCollectionViewCell.h; sourceTree = "<group>"; };
+		F3125CE41B1F7DED002ED749 /* FilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3125CB21B1F3474002ED749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3125CCB1B1F3474002ED749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3125CAC1B1F3474002ED749 = {
+			isa = PBXGroup;
+			children = (
+				F3125CB71B1F3474002ED749 /* TakeASelfie */,
+				F3125CD11B1F3474002ED749 /* TakeASelfieTests */,
+				F3125CB61B1F3474002ED749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3125CB61B1F3474002ED749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3125CB51B1F3474002ED749 /* TakeASelfie.app */,
+				F3125CCE1B1F3474002ED749 /* TakeASelfieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3125CB71B1F3474002ED749 /* TakeASelfie */ = {
+			isa = PBXGroup;
+			children = (
+				F3125CE01B1F3E08002ED749 /* CameraViewController.m */,
+				F3125CE21B1F3E0E002ED749 /* CameraViewController.h */,
+				F3125CBF1B1F3474002ED749 /* ViewController.h */,
+				F3125CC01B1F3474002ED749 /* ViewController.m */,
+				F3125CC21B1F3474002ED749 /* Main.storyboard */,
+				F3125CE31B1F7DED002ED749 /* FilterCollectionViewCell.h */,
+				F3125CE41B1F7DED002ED749 /* FilterCollectionViewCell.m */,
+				F3125CC51B1F3474002ED749 /* Images.xcassets */,
+				F3125CC71B1F3474002ED749 /* LaunchScreen.xib */,
+				F3125CB81B1F3474002ED749 /* Supporting Files */,
+			);
+			path = TakeASelfie;
+			sourceTree = "<group>";
+		};
+		F3125CB81B1F3474002ED749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3125CBC1B1F3474002ED749 /* AppDelegate.h */,
+				F3125CBD1B1F3474002ED749 /* AppDelegate.m */,
+				F3125CB91B1F3474002ED749 /* Info.plist */,
+				F3125CBA1B1F3474002ED749 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3125CD11B1F3474002ED749 /* TakeASelfieTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3125CD41B1F3474002ED749 /* TakeASelfieTests.m */,
+				F3125CD21B1F3474002ED749 /* Supporting Files */,
+			);
+			path = TakeASelfieTests;
+			sourceTree = "<group>";
+		};
+		F3125CD21B1F3474002ED749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3125CD31B1F3474002ED749 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3125CB41B1F3474002ED749 /* TakeASelfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3125CD81B1F3474002ED749 /* Build configuration list for PBXNativeTarget "TakeASelfie" */;
+			buildPhases = (
+				F3125CB11B1F3474002ED749 /* Sources */,
+				F3125CB21B1F3474002ED749 /* Frameworks */,
+				F3125CB31B1F3474002ED749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeASelfie;
+			productName = TakeASelfie;
+			productReference = F3125CB51B1F3474002ED749 /* TakeASelfie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3125CCD1B1F3474002ED749 /* TakeASelfieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3125CDB1B1F3474002ED749 /* Build configuration list for PBXNativeTarget "TakeASelfieTests" */;
+			buildPhases = (
+				F3125CCA1B1F3474002ED749 /* Sources */,
+				F3125CCB1B1F3474002ED749 /* Frameworks */,
+				F3125CCC1B1F3474002ED749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3125CD01B1F3474002ED749 /* PBXTargetDependency */,
+			);
+			name = TakeASelfieTests;
+			productName = TakeASelfieTests;
+			productReference = F3125CCE1B1F3474002ED749 /* TakeASelfieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3125CAD1B1F3474002ED749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aimee Bragg";
+				TargetAttributes = {
+					F3125CB41B1F3474002ED749 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MC5L9HK9FC;
+					};
+					F3125CCD1B1F3474002ED749 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F3125CB41B1F3474002ED749;
+					};
+				};
+			};
+			buildConfigurationList = F3125CB01B1F3474002ED749 /* Build configuration list for PBXProject "TakeASelfie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3125CAC1B1F3474002ED749;
+			productRefGroup = F3125CB61B1F3474002ED749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3125CB41B1F3474002ED749 /* TakeASelfie */,
+				F3125CCD1B1F3474002ED749 /* TakeASelfieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3125CB31B1F3474002ED749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3125CC41B1F3474002ED749 /* Main.storyboard in Resources */,
+				F3125CC91B1F3474002ED749 /* LaunchScreen.xib in Resources */,
+				F3125CC61B1F3474002ED749 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3125CCC1B1F3474002ED749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3125CB11B1F3474002ED749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3125CC11B1F3474002ED749 /* ViewController.m in Sources */,
+				F3125CE51B1F7DED002ED749 /* FilterCollectionViewCell.m in Sources */,
+				F3125CE11B1F3E08002ED749 /* CameraViewController.m in Sources */,
+				F3125CBE1B1F3474002ED749 /* AppDelegate.m in Sources */,
+				F3125CBB1B1F3474002ED749 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3125CCA1B1F3474002ED749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3125CD51B1F3474002ED749 /* TakeASelfieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3125CD01B1F3474002ED749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3125CB41B1F3474002ED749 /* TakeASelfie */;
+			targetProxy = F3125CCF1B1F3474002ED749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3125CC21B1F3474002ED749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3125CC31B1F3474002ED749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3125CC71B1F3474002ED749 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3125CC81B1F3474002ED749 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3125CD61B1F3474002ED749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3125CD71B1F3474002ED749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3125CD91B1F3474002ED749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TakeASelfie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F3125CDA1B1F3474002ED749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TakeASelfie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F3125CDC1B1F3474002ED749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakeASelfieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeASelfie.app/TakeASelfie";
+			};
+			name = Debug;
+		};
+		F3125CDD1B1F3474002ED749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakeASelfieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeASelfie.app/TakeASelfie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3125CB01B1F3474002ED749 /* Build configuration list for PBXProject "TakeASelfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3125CD61B1F3474002ED749 /* Debug */,
+				F3125CD71B1F3474002ED749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3125CD81B1F3474002ED749 /* Build configuration list for PBXNativeTarget "TakeASelfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3125CD91B1F3474002ED749 /* Debug */,
+				F3125CDA1B1F3474002ED749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3125CDB1B1F3474002ED749 /* Build configuration list for PBXNativeTarget "TakeASelfieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3125CDC1B1F3474002ED749 /* Debug */,
+				F3125CDD1B1F3474002ED749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3125CAD1B1F3474002ED749 /* Project object */;
+}
