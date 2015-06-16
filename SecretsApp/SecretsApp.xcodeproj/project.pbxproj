@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3634A931B2F584F0065B05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3634A921B2F584F0065B05B /* AppDelegate.swift */; };
+		F3634A951B2F584F0065B05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3634A941B2F584F0065B05B /* ViewController.swift */; };
+		F3634A981B2F584F0065B05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3634A961B2F584F0065B05B /* Main.storyboard */; };
+		F3634A9A1B2F584F0065B05B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3634A991B2F584F0065B05B /* Images.xcassets */; };
+		F3634A9D1B2F584F0065B05B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3634A9B1B2F584F0065B05B /* LaunchScreen.xib */; };
+		F3634AA91B2F584F0065B05B /* SecretsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3634AA81B2F584F0065B05B /* SecretsAppTests.swift */; };
+		F3634AB41B2F58AA0065B05B /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3634AB31B2F58AA0065B05B /* Firebase.framework */; };
+		F3634AB61B2F58EB0065B05B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3634AB51B2F58EB0065B05B /* libicucore.dylib */; };
+		F3634AB81B2F58F90065B05B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3634AB71B2F58F90065B05B /* libc++.dylib */; };
+		F3634ABA1B2F59060065B05B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3634AB91B2F59060065B05B /* CFNetwork.framework */; };
+		F3634ABC1B2F59120065B05B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3634ABB1B2F59120065B05B /* Security.framework */; };
+		F3634ABE1B2F59230065B05B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3634ABD1B2F59230065B05B /* SystemConfiguration.framework */; };
+		F3634AC11B2F5A400065B05B /* SecretsAppBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F3634AC01B2F5A400065B05B /* SecretsAppBridgingHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3634AA31B2F584F0065B05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3634A851B2F584F0065B05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3634A8C1B2F584F0065B05B;
+			remoteInfo = SecretsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3634A8D1B2F584F0065B05B /* SecretsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3634A911B2F584F0065B05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3634A921B2F584F0065B05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3634A941B2F584F0065B05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3634A971B2F584F0065B05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3634A991B2F584F0065B05B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3634A9C1B2F584F0065B05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F3634AA21B2F584F0065B05B /* SecretsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3634AA71B2F584F0065B05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3634AA81B2F584F0065B05B /* SecretsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsAppTests.swift; sourceTree = "<group>"; };
+		F3634AB31B2F58AA0065B05B /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		F3634AB51B2F58EB0065B05B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F3634AB71B2F58F90065B05B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F3634AB91B2F59060065B05B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F3634ABB1B2F59120065B05B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F3634ABD1B2F59230065B05B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F3634ABF1B2F5A400065B05B /* SecretsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3634AC01B2F5A400065B05B /* SecretsAppBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretsAppBridgingHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3634A8A1B2F584F0065B05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3634ABE1B2F59230065B05B /* SystemConfiguration.framework in Frameworks */,
+				F3634ABC1B2F59120065B05B /* Security.framework in Frameworks */,
+				F3634ABA1B2F59060065B05B /* CFNetwork.framework in Frameworks */,
+				F3634AB81B2F58F90065B05B /* libc++.dylib in Frameworks */,
+				F3634AB61B2F58EB0065B05B /* libicucore.dylib in Frameworks */,
+				F3634AB41B2F58AA0065B05B /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3634A9F1B2F584F0065B05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3634A841B2F584F0065B05B = {
+			isa = PBXGroup;
+			children = (
+				F3634AC01B2F5A400065B05B /* SecretsAppBridgingHeader.m */,
+				F3634ABD1B2F59230065B05B /* SystemConfiguration.framework */,
+				F3634ABB1B2F59120065B05B /* Security.framework */,
+				F3634AB91B2F59060065B05B /* CFNetwork.framework */,
+				F3634AB71B2F58F90065B05B /* libc++.dylib */,
+				F3634AB51B2F58EB0065B05B /* libicucore.dylib */,
+				F3634A8F1B2F584F0065B05B /* SecretsApp */,
+				F3634AA51B2F584F0065B05B /* SecretsAppTests */,
+				F3634A8E1B2F584F0065B05B /* Products */,
+				F3634ABF1B2F5A400065B05B /* SecretsApp-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F3634A8E1B2F584F0065B05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3634A8D1B2F584F0065B05B /* SecretsApp.app */,
+				F3634AA21B2F584F0065B05B /* SecretsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3634A8F1B2F584F0065B05B /* SecretsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3634AB21B2F58810065B05B /* Frameworks */,
+				F3634A921B2F584F0065B05B /* AppDelegate.swift */,
+				F3634A941B2F584F0065B05B /* ViewController.swift */,
+				F3634A961B2F584F0065B05B /* Main.storyboard */,
+				F3634A991B2F584F0065B05B /* Images.xcassets */,
+				F3634A9B1B2F584F0065B05B /* LaunchScreen.xib */,
+				F3634A901B2F584F0065B05B /* Supporting Files */,
+			);
+			path = SecretsApp;
+			sourceTree = "<group>";
+		};
+		F3634A901B2F584F0065B05B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3634A911B2F584F0065B05B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3634AA51B2F584F0065B05B /* SecretsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3634AA81B2F584F0065B05B /* SecretsAppTests.swift */,
+				F3634AA61B2F584F0065B05B /* Supporting Files */,
+			);
+			path = SecretsAppTests;
+			sourceTree = "<group>";
+		};
+		F3634AA61B2F584F0065B05B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3634AA71B2F584F0065B05B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3634AB21B2F58810065B05B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3634AB31B2F58AA0065B05B /* Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3634A8C1B2F584F0065B05B /* SecretsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3634AAC1B2F584F0065B05B /* Build configuration list for PBXNativeTarget "SecretsApp" */;
+			buildPhases = (
+				F3634A891B2F584F0065B05B /* Sources */,
+				F3634A8A1B2F584F0065B05B /* Frameworks */,
+				F3634A8B1B2F584F0065B05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretsApp;
+			productName = SecretsApp;
+			productReference = F3634A8D1B2F584F0065B05B /* SecretsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3634AA11B2F584F0065B05B /* SecretsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3634AAF1B2F584F0065B05B /* Build configuration list for PBXNativeTarget "SecretsAppTests" */;
+			buildPhases = (
+				F3634A9E1B2F584F0065B05B /* Sources */,
+				F3634A9F1B2F584F0065B05B /* Frameworks */,
+				F3634AA01B2F584F0065B05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3634AA41B2F584F0065B05B /* PBXTargetDependency */,
+			);
+			name = SecretsAppTests;
+			productName = SecretsAppTests;
+			productReference = F3634AA21B2F584F0065B05B /* SecretsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3634A851B2F584F0065B05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aimee Bragg";
+				TargetAttributes = {
+					F3634A8C1B2F584F0065B05B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F3634AA11B2F584F0065B05B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F3634A8C1B2F584F0065B05B;
+					};
+				};
+			};
+			buildConfigurationList = F3634A881B2F584F0065B05B /* Build configuration list for PBXProject "SecretsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3634A841B2F584F0065B05B;
+			productRefGroup = F3634A8E1B2F584F0065B05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3634A8C1B2F584F0065B05B /* SecretsApp */,
+				F3634AA11B2F584F0065B05B /* SecretsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3634A8B1B2F584F0065B05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3634A981B2F584F0065B05B /* Main.storyboard in Resources */,
+				F3634A9D1B2F584F0065B05B /* LaunchScreen.xib in Resources */,
+				F3634A9A1B2F584F0065B05B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3634AA01B2F584F0065B05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3634A891B2F584F0065B05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3634AC11B2F5A400065B05B /* SecretsAppBridgingHeader.m in Sources */,
+				F3634A951B2F584F0065B05B /* ViewController.swift in Sources */,
+				F3634A931B2F584F0065B05B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3634A9E1B2F584F0065B05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3634AA91B2F584F0065B05B /* SecretsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3634AA41B2F584F0065B05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3634A8C1B2F584F0065B05B /* SecretsApp */;
+			targetProxy = F3634AA31B2F584F0065B05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3634A961B2F584F0065B05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3634A971B2F584F0065B05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3634A9B1B2F584F0065B05B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3634A9C1B2F584F0065B05B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3634AAA1B2F584F0065B05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3634AAB1B2F584F0065B05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3634AAD1B2F584F0065B05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SecretsApp",
+				);
+				INFOPLIST_FILE = SecretsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SecretsApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3634AAE1B2F584F0065B05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SecretsApp",
+				);
+				INFOPLIST_FILE = SecretsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SecretsApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F3634AB01B2F584F0065B05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SecretsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretsApp.app/SecretsApp";
+			};
+			name = Debug;
+		};
+		F3634AB11B2F584F0065B05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SecretsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretsApp.app/SecretsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3634A881B2F584F0065B05B /* Build configuration list for PBXProject "SecretsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3634AAA1B2F584F0065B05B /* Debug */,
+				F3634AAB1B2F584F0065B05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3634AAC1B2F584F0065B05B /* Build configuration list for PBXNativeTarget "SecretsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3634AAD1B2F584F0065B05B /* Debug */,
+				F3634AAE1B2F584F0065B05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3634AAF1B2F584F0065B05B /* Build configuration list for PBXNativeTarget "SecretsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3634AB01B2F584F0065B05B /* Debug */,
+				F3634AB11B2F584F0065B05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3634A851B2F584F0065B05B /* Project object */;
+}
